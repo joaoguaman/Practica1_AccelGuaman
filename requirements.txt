@@ -76,7 +76,7 @@ nbformat==5.10.4
 nest-asyncio==1.6.0
 notebook==7.5.5
 notebook_shim==0.2.4
-numpy==2.2.6
+numpy<2
 overrides==7.7.0
 packaging==26.2
 pandas==2.3.3
@@ -89,7 +89,7 @@ prompt_toolkit==3.0.52
 psutil==7.2.2
 psygnal==0.15.1
 pure_eval==0.2.3
-pyarrow==24.0.0
+pyarrow==10.0.1
 pycparser==3.0
 pydantic==2.13.3
 pydantic_core==2.46.3
@@ -99,7 +99,6 @@ pyparsing==3.3.2
 python-dateutil==2.9.0.post0
 python-json-logger==4.1.0
 pytz==2026.1.post1
-pywinpty==3.0.3
 PyYAML==6.0.3
 pyzmq==27.1.0
 referencing==0.37.0
