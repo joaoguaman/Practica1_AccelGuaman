@@ -1,21 +1,8 @@
-## Ejercicio-semana3
+# Práctica 1 - Accel Guamán 
+## Análisis de Dataset de Pacientes de Parkinson 
 
-### Parte 1
-* Trabajar en un archivo llamado cuaderno1.ipynb
-* Crear un conjunto de datos usando la librería https://faker.readthedocs.io/en/master/
-* El número de registros que se debe generar es de 10000
-* El conjunto de datoss tendrá las siguientes características:
-    * Para cada registro usar las características: fake.name(), fake.last_name(), fake.email(), fake.address()
-* Pasar los registros a un dataframe de pandas
-* Agregar dos características más:
-    * Edad, comprendidas entre 30 y 40 años
-    * Provincia, entre las opciones (Loja, Pichincha, Guayas, Azuay, Manabí)
-* Pasar el dataframe a un archivo csv
-  
-### Parte 2
+Este dataset es una versión reducida de la base de datos brindada por el proyecto Parkinson’s Voice Initiative (PVI). Se puede acceder a la misma a través del portal synapse.org mediante la id ‘syn2321745’, la cual está registrada como Patient Voice Analysis (PVA) project.
 
-* Trabajar en un archivo llamado cuaderno2.ipynb
-* Leer el archivo previo generado
-* Visualizar la información a través de PyGWalker (instalar previo - https://github.com/Kanaries/pygwalker)
- * Un gráfico que muestre el número de registros por cada edad
- * Un gráfico que muestre el número de registros por cada provincia 
+La base de datos incluye información de una serie de audios brindados para trabajar en la detección temprana de Parkinson. Esta version del dataset incluye la siguiente información de cada paciente: Referencia, Edad, Sexo, Años desde el 1er Sintoma, Diagnóstico en la Escala Hoeh-Yahr, Puntuación UPDRS, Estado del Tratamiento, Duración de la Grabación, Duración del Audio y Duración de Voz Usable. 
+
+En esta práctica, se pretende añadir información acerca de rangos y porcentajes útiles para una representación gráfica. 
